@@ -21,3 +21,7 @@ class RomanNumerals:
             ans+=roman_dict[roman_num[i]]
             i+=1
         return ans
+    
+#TEST
+#Should return the same number
+print(RomanNumerals.from_roman(RomanNumerals.to_roman(346)))
